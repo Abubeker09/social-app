@@ -21,7 +21,7 @@ import Loader from "@/components/shared/Loader";
 
 const SignupForm = () => {
   const { toast } = useToast()
-  const {checkAuthUser, isLoading: isUserLoding} = useUserContext()
+  const {checkAuthUser} = useUserContext()
 
   const navigate = useNavigate();
 
